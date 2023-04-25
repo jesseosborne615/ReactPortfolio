@@ -1,9 +1,6 @@
-import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+
+
+
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -23,62 +20,50 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
+    firstName: "Jesse",
+    lastName: "Osborne",
+    initials: "jo", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
-    selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
+     // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
-    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
+    miniBio: [
+       
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
+        
+            text: 'Orlando Based'
         },
         {
-            emoji: '🌎',
-            text: 'based in the US'
+           
+            text: "Recent UCF Bootcamp Graduate"
         },
         {
-            emoji: "💼",
-            text: "Systems Engineer at Google"
-        },
-        {
-            emoji: "📧",
-            text: "johnsmith@gmail.com"
+            
+            text: "jesseosborne615@gmail.com"
         }
     ],
     socials: [
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
+            link: "https://instagram.com/jesse__osborne",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/jesseosborne615",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://linkedin.com/in/jesseosborne615",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
-        }
+       
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello, I'm Jesse, a Full Stack Developer. I am a recent graduate bootcamp graduate from the UCF. I have a passion for designing. We should talk!",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
@@ -88,53 +73,31 @@ export const info = {
     hobbies: [
         {
             label: 'reading',
-            emoji: '📖'
+            
+        },
+        
+        {
+            label: 'animals',
         },
         {
-            label: 'theater',
-            emoji: '🎭'
-        },
-        {
-            label: 'movies',
-            emoji: '🎥'
-        },
-        {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'meeting new people',
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            title: "Netflix Review Resource",
+            live: "https://averynewhart.github.io/Netflix-Review-Resource/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/AveryNewhart/Netflix-Review-Resource", // this should be a link to the **repository** of the project, where the code is hosted.
+            
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
+            title: "git_to_work",
+            live: "https://www.google.com",
+            source: "https://github.com/jesseosborne615",
         },
-        {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
+      
+           
     ]
 }
